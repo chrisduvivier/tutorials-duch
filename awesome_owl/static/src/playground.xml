@@ -8,17 +8,15 @@
                 Counter: <t t-esc="state.value"/>
             
                 <button t-on-click="increment">Increment</button>
-                <Counter />
+                <Counter callback.bind="incrementSum"/>
             </p>
         </div>
 
         <!-- Card Ex3 -->
         <div>
-            <Card title="'card 1'" content="'content of card 1'"/>
-            <Card title="'card 2'" content="'content of card 2'"/>
+            <Card title="'card 1'" content="value1"/>
+            <Card title="'card 2'" content="value2"/>
         </div>
-        
-
         
     </t>
 

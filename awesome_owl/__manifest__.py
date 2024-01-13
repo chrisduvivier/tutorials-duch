@@ -23,6 +23,10 @@
     'depends': ['base', 'web'],
     'application': True,
     'installable': True,
+    
+    # dev mode
+    'dev': True,
+    
     'data': [
         'views/templates.xml',
     ],
